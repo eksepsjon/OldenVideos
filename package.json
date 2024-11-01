@@ -8,14 +8,19 @@
     "start": "next start",
     "lint": "next lint",
     "pretty:check": "npx prettier . --check",
-    "pretty:fix": "npx prettier . --write"
+    "pretty:fix": "npx prettier . --write",
+    "add": "npx ts-node -r dotenv/config scripts/add-video.ts -- \"https://www.youtube.com/watch?v=DFM140rju4k&pp=ygUKZ29sZGVuIGFnZQ%3D%3D\""
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "duration-fns": "^3.0.2",
     "eslint-plugin-css": "^0.11.0",
+    "moment": "^2.30.1",
     "next": "15.0.2",
     "prettier": "^3.3.3",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
