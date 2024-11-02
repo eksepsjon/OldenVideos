@@ -1,0 +1,70 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "_PaDVXaf38wJ0-jBnzAGPMxCo1w",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "F5FUIm7R0Fpb1LkT4jD7lJVTGiM",
+      "id": "HU2ftCitvyQ",
+      "snippet": {
+        "publishedAt": "2009-05-30T16:49:53Z",
+        "channelId": "UCMgFSpbvuzhItvSOPp3KjYQ",
+        "title": "Shatner Of The Mount by Fall On Your Sword",
+        "description": "The offical single, Captain Of The Mount is now available at the iTunes store. \r\nCaptain Kirk is climbing a mountain, why is he climbing a mountain?\r\n\r\nOfficial single \"Captain Of The Mount\" now available at the iTunes store",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HU2ftCitvyQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HU2ftCitvyQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HU2ftCitvyQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fall On Your Sword",
+        "tags": [
+          "William",
+          "Shatner",
+          "Startrek",
+          "mountain",
+          "captain",
+          "kirk",
+          "is",
+          "climbing",
+          "why",
+          "he",
+          "fall",
+          "on",
+          "your",
+          "sword"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Shatner Of The Mount by Fall On Your Sword",
+          "description": "The offical single, Captain Of The Mount is now available at the iTunes store. \r\nCaptain Kirk is climbing a mountain, why is he climbing a mountain?\r\n\r\nOfficial single \"Captain Of The Mount\" now available at the iTunes store"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M33S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

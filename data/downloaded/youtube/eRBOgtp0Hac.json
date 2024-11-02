@@ -1,0 +1,78 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "69WNIJXgEKTn9VygO4zpksbuh4c",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "eMQjlu2Zr-T_pwpSvd8Ij4d7T2U",
+      "id": "eRBOgtp0Hac",
+      "snippet": {
+        "publishedAt": "2008-09-07T06:21:31Z",
+        "channelId": "UCzerDx0WmSVlb6mUqq56nVw",
+        "title": "Peanut Butter Jelly Time with Lyrics!!!",
+        "description": "This is the Peanut Butter Jelly Time with Lyrics!!! This song should be familiar since it is on Family Guy!! The artists of the song are the Buckwheat Boyz, and the pictures was from Google. The lyrics were from Google also so don't come screaming at me if the lyrics are wrong or something like that.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eRBOgtp0Hac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eRBOgtp0Hac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eRBOgtp0Hac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "carfreak0801",
+        "tags": [
+          "its",
+          "peanut",
+          "butter",
+          "jelly",
+          "time",
+          "family",
+          "guy",
+          "lyrics",
+          "TV",
+          "show",
+          "funny",
+          "lol",
+          "dancing",
+          "banana",
+          "Family Guy (TV Program)",
+          "Song",
+          "Eating",
+          "Juice",
+          "Apple",
+          "Orange",
+          "Full",
+          "Cereal"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Peanut Butter Jelly Time with Lyrics!!!",
+          "description": "This is the Peanut Butter Jelly Time with Lyrics!!! This song should be familiar since it is on Family Guy!! The artists of the song are the Buckwheat Boyz, and the pictures was from Google. The lyrics were from Google also so don't come screaming at me if the lyrics are wrong or something like that."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M11S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

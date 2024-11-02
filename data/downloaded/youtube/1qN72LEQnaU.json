@@ -1,0 +1,61 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "prnBU5bs-U3nKJAsUh1-pm_10sE",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "yvk6kJRuXc3DLfRb98Xc5QkbOeM",
+      "id": "1qN72LEQnaU",
+      "snippet": {
+        "publishedAt": "2007-05-05T21:28:02Z",
+        "channelId": "UC3DX5oJ-dSFQibf10uNKRxw",
+        "title": "The Hamster Dance Song",
+        "description": "The Hamster Dance Song by Hampton the Hamster",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1qN72LEQnaU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1qN72LEQnaU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1qN72LEQnaU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kitkatzplace",
+        "tags": [
+          "Song",
+          "Hampton",
+          "the",
+          "Hampster",
+          "Hamster Dance"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The Hamster Dance Song",
+          "description": "The Hamster Dance Song by Hampton the Hamster"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M37S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
