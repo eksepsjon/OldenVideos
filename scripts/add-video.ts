@@ -20,7 +20,7 @@ process.argv.forEach(async (val: string, index: number) => {
     });
 
     writeIfNotExists(`${VIDEO_PATH}${youtubeId}.json`, () => {
-      return Promise.resolve(JSON.stringify(convertYoutubeToVideo(JSON.parse(ytData))));
+      return Promise.resolve(JSON.stringify(convertYoutubeToVideo(JSON.parse(ytData)), null, 2));
     });
   } catch (err: any) {
     console.error(err);

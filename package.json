@@ -9,7 +9,7 @@
     "lint": "next lint",
     "pretty:check": "npx prettier . --check",
     "pretty:fix": "npx prettier . --write",
-    "add": "npx ts-node -r dotenv/config scripts/add-video.ts -- \"https://www.youtube.com/watch?v=DFM140rju4k&pp=ygUKZ29sZGVuIGFnZQ%3D%3D\"",
+    "add": "npx ts-node -r dotenv/config scripts/add-video.ts",
     "rebuild": "npx ts-node -r dotenv/config scripts/rebuild-db.ts"
   },
   "dependencies": {

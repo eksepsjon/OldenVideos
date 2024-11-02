@@ -29,7 +29,7 @@ export const fetchWithYoutubeApi = async (
     headers: { Accept: 'application/json' },
   });
   const json = await response.json();
-  return JSON.stringify(json);
+  return JSON.stringify(json, null, 2);
 };
 
 export const convertYoutubeToVideo = (youtube: any): Video => {
