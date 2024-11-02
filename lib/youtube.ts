@@ -31,8 +31,6 @@ export const fetchWithYoutubeApi = async (
 };
 
 export const convertYoutubeToVideo = (youtube: any): Video => {
-  console.log('snippet', youtube.items);
-
   const item = youtube.items[0];
   const snippet = item.snippet;
   const contentDetails = item.contentDetails;
