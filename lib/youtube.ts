@@ -1,6 +1,8 @@
 import { Video } from '@/models';
 import * as duration from 'duration-fns';
 
+export const YOUTUBE_PATH = 'data/downloaded/youtube/' as const;
+
 export const getYoutubeId = (url: string | undefined): string | null => {
   if (!url) {
     return null;

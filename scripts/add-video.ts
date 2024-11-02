@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { convertYoutubeToVideo, fetchWithYoutubeApi, getYoutubeId } from '@/lib/youtube';
-import { writeIfNotExists } from '@/lib/file';
+import { convertYoutubeToVideo, fetchWithYoutubeApi, getYoutubeId, YOUTUBE_PATH } from '@/lib/youtube';
+import { VIDEO_PATH, writeIfNotExists } from '@/lib/file';
 
 console.log('Hello from add-video.ts');
 
@@ -12,14 +12,14 @@ process.argv.forEach(async (val: string, index: number) => {
   }
 
   try {
-    const ytData = await writeIfNotExists(`data/downloaded/youtube/${youtubeId}.json`, async () => {
+    const ytData = await writeIfNotExists(`${YOUTUBE_PATH}${youtubeId}.json`, async () => {
       return fetchWithYoutubeApi(process.env.YOUTUBE_API_KEY, 'videos', [
         ['id', youtubeId],
         ['part', encodeURIComponent('snippet,contentDetails')],
       ]);
     });
 
-    writeIfNotExists(`data/processed/${youtubeId}.json`, () => {
+    writeIfNotExists(`${VIDEO_PATH}${youtubeId}.json`, () => {
       return Promise.resolve(JSON.stringify(convertYoutubeToVideo(JSON.parse(ytData))));
     });
   } catch (err: any) {
