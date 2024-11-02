@@ -12,4 +12,11 @@ readdirSync(VIDEO_PATH)
     allVideos.push(convertToItem(video));
   });
 
-writeFile('data/videos.json', JSON.stringify(allVideos, null, 2));
+writeFile(
+  'data/videos.json',
+  JSON.stringify(
+    allVideos.sort((a, b) => a.publishedAt.localeCompare(b.publishedAt)),
+    null,
+    2,
+  ),
+);
