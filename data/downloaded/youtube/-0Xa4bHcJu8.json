@@ -1,0 +1,42 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "R6GzXT519dTTQhsQB8vM12aPQtU",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "bBtf4QHbrbYwIqGwnhDlVwFyEuI",
+      "id": "-0Xa4bHcJu8",
+      "snippet": {
+        "publishedAt": "2010-03-09T17:00:49Z",
+        "channelId": "UC9Ntx-EF3LzKY1nQ5rTUP2g",
+        "title": "Cycles",
+        "description": "the day Worthing sea-front was invaded by infinite teddy-bears.\r\n\r\nNo teddy bears were harmed in the making of this video.\r\n\r\nmusic is available here: http://cyriak.co.uk/music.html\r\nThe software used was adobe after effects.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/-0Xa4bHcJu8/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/-0Xa4bHcJu8/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/-0Xa4bHcJu8/hqdefault.jpg", "width": 480, "height": 360 },
+          "standard": { "url": "https://i.ytimg.com/vi/-0Xa4bHcJu8/sddefault.jpg", "width": 640, "height": 480 },
+          "maxres": { "url": "https://i.ytimg.com/vi/-0Xa4bHcJu8/maxresdefault.jpg", "width": 1280, "height": 720 }
+        },
+        "channelTitle": "cyriak",
+        "tags": ["cyriak", "teddy", "bears", "worthing", "animated", "loops"],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Cycles",
+          "description": "the day Worthing sea-front was invaded by infinite teddy-bears.\r\n\r\nNo teddy bears were harmed in the making of this video.\r\n\r\nmusic is available here: http://cyriak.co.uk/music.html\r\nThe software used was adobe after effects."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M59S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": { "totalResults": 1, "resultsPerPage": 1 }
+}
