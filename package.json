@@ -10,7 +10,8 @@
     "pretty:check": "npx prettier . --check",
     "pretty:fix": "npx prettier . --write",
     "add": "npx ts-node -r dotenv/config scripts/add-video.ts",
-    "rebuild": "npx ts-node -r dotenv/config scripts/rebuild-db.ts"
+    "rebuild": "npx ts-node -r dotenv/config scripts/rebuild-db.ts",
+    "reconvert": "npx ts-node -r dotenv/config scripts/reconvert-missing.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

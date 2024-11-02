@@ -2,8 +2,13 @@
   "id": "-0Xa4bHcJu8",
   "title": "Cycles",
   "description": "the day Worthing sea-front was invaded by infinite teddy-bears.\r\n\r\nNo teddy bears were harmed in the making of this video.\r\n\r\nmusic is available here: http://cyriak.co.uk/music.html\r\nThe software used was adobe after effects.",
-  "publishedAt": "2010-03-09T17:00:49Z",
+  "publishedAt": "2010-03-09T17:00:49.000Z",
+  "importedAt": "2024-11-02T09:30:01.906Z",
   "duration": 179,
   "thumbnail": "https://i.ytimg.com/vi/-0Xa4bHcJu8/default.jpg",
-  "source": "youtube"
+  "source": "youtube",
+  "channel": {
+    "id": "UC9Ntx-EF3LzKY1nQ5rTUP2g",
+    "name": "cyriak"
+  }
 }

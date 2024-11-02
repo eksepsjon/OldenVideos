@@ -1,5 +1,6 @@
 import { Video } from '@/models';
 import * as duration from 'duration-fns';
+import moment from 'moment';
 
 export const YOUTUBE_PATH = 'data/downloaded/youtube/' as const;
 
@@ -41,9 +42,14 @@ export const convertYoutubeToVideo = (youtube: any): Video => {
     id: item.id,
     title: snippet.title,
     description: snippet.description,
-    publishedAt: snippet.publishedAt,
+    publishedAt: moment(snippet.publishedAt).toISOString(),
+    importedAt: moment().toISOString(),
     duration: duration.toSeconds(contentDetails.duration),
     thumbnail: snippet.thumbnails.default.url,
     source: 'youtube',
+    channel: {
+      id: snippet.channelId,
+      name: snippet.channelTitle,
+    },
   };
 };

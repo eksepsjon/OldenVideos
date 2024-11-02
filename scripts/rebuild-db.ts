@@ -12,4 +12,4 @@ readdirSync(VIDEO_PATH)
     allVideos.push(convertToItem(video));
   });
 
-writeFile('data/videos.json', JSON.stringify(allVideos));
+writeFile('data/videos.json', JSON.stringify(allVideos, null, 2));

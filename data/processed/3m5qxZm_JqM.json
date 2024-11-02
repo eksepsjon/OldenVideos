@@ -2,8 +2,13 @@
   "id": "3m5qxZm_JqM",
   "title": "Clarke and Dawe - The Front Fell Off",
   "description": "http://www.mrjohnclarke.com \r\n\r\n\"Bob Collins, Australian Senator\" Air date: 26/07/1991\r\n\r\nCan be purchased on \"Clarke & Dawe -The Full Catastrophe DVD Boxed Set\" Personally signed at MrJohnClarke.com",
-  "publishedAt": "2010-06-24T03:55:03Z",
+  "publishedAt": "2010-06-24T03:55:03.000Z",
+  "importedAt": "2024-11-02T09:30:01.907Z",
   "duration": 129,
   "thumbnail": "https://i.ytimg.com/vi/3m5qxZm_JqM/default.jpg",
-  "source": "youtube"
+  "source": "youtube",
+  "channel": {
+    "id": "UCPyb1dDiGoZ07j_DKzam4sQ",
+    "name": "ClarkeAndDawe"
+  }
 }
