@@ -1,5 +1,5 @@
 import { Video, VideoItem } from '@/models';
-import { readFile, VIDEO_PATH } from './file';
+import { exists, META_PATH, readFile, VIDEO_PATH } from './file';
 
 export const allVideos: VideoItem[] = [...(JSON.parse(readFile('data/videos.json')) as VideoItem[])];
 
@@ -9,9 +9,17 @@ export const videoById = (id: string): Video | undefined => {
   if (videoMap.has(id)) {
     return videoMap.get(id);
   } else {
-    const video = JSON.parse(readFile(`${VIDEO_PATH}${id}.json`)) as Video;
+    const videoPath = `${VIDEO_PATH}${id}.json`;
+    const metaPath = `${META_PATH}${id}.json`;
+
+    let video = JSON.parse(readFile(videoPath));
     if (video) {
-      videoMap.set(id, video);
+      if (exists(metaPath)) {
+        const videoMeta = JSON.parse(readFile(metaPath));
+
+        video = { ...video, ...videoMeta };
+      }
+      videoMap.set(id, video as Video);
       return video;
     }
   }

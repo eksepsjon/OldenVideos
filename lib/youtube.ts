@@ -2,7 +2,7 @@ import { Video } from '@/models';
 import * as duration from 'duration-fns';
 import moment from 'moment';
 
-export const YOUTUBE_PATH = 'data/downloaded/youtube/' as const;
+export const YOUTUBE_PATH = 'data/raw/youtube/' as const;
 
 export const getYoutubeId = (url: string | undefined): string | null => {
   if (!url) {

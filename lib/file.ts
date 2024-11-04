@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 
 export const VIDEO_PATH = 'data/processed/' as const;
+export const META_PATH = 'data/meta/' as const;
 
 export const writeIfNotExists = async (path: string, contentCallback: () => Promise<string>) => {
   if (existsSync(path)) {
@@ -18,7 +19,12 @@ export const writeFile = async (path: string, content: string) => {
   return content;
 };
 
+export const exists = (path: string) => {
+  return existsSync(path);
+};
+
 export const readFile = (path: string) => {
   console.log('🆗 Read:', path);
+
   return readFileSync(path, { encoding: 'utf8', flag: 'r' });
 };
