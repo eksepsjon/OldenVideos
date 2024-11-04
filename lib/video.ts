@@ -15,7 +15,7 @@ export const videoById = (id: string): Video | undefined => {
     let video = JSON.parse(readFile(videoPath));
     if (video) {
       if (exists(metaPath)) {
-        const videoMeta = JSON.parse(readFile(metaPath));
+        const videoMeta = JSON.parse(readFile(metaPath)) as Partial<Video>;
 
         video = { ...video, ...videoMeta };
       }

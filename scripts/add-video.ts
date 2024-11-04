@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { convertYoutubeToVideo, fetchWithYoutubeApi, getYoutubeId, YOUTUBE_PATH } from '@/lib/youtube';
-import { VIDEO_PATH, writeIfNotExists } from '@/lib/file';
+import { META_PATH, VIDEO_PATH, writeIfNotExists } from '@/lib/file';
+import { Video } from '@/models';
 
 console.log(
   'Importing Youtube videos',
@@ -22,8 +23,14 @@ process.argv.forEach(async (val: string, index: number) => {
       ]);
     });
 
-    writeIfNotExists(`${VIDEO_PATH}${youtubeId}.json`, () => {
+    const processedData = await writeIfNotExists(`${VIDEO_PATH}${youtubeId}.json`, () => {
       return Promise.resolve(JSON.stringify(convertYoutubeToVideo(JSON.parse(ytData)), null, 2));
+    });
+
+    writeIfNotExists(`${META_PATH}${youtubeId}.json`, () => {
+      const processed = JSON.parse(processedData) as Video;
+
+      return Promise.resolve(JSON.stringify({ importedAt: processed.importedAt }, null, 2));
     });
   } catch (err: any) {
     console.error(err);
