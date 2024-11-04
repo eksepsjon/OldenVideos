@@ -4,7 +4,7 @@ export const VIDEO_PATH = 'data/processed/' as const;
 
 export const writeIfNotExists = async (path: string, contentCallback: () => Promise<string>) => {
   if (existsSync(path)) {
-    console.log('File exists', path);
+    console.log('🆗 File exists:', path);
     return Promise.resolve(readFile(path));
   }
   const content = await contentCallback();
@@ -13,10 +13,12 @@ export const writeIfNotExists = async (path: string, contentCallback: () => Prom
 };
 
 export const writeFile = async (path: string, content: string) => {
+  console.log('🆗 Write:', path);
   writeFileSync(path, content);
   return content;
 };
 
 export const readFile = (path: string) => {
+  console.log('🆗 Read:', path);
   return readFileSync(path, { encoding: 'utf8', flag: 'r' });
 };

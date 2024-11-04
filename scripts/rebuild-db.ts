@@ -8,7 +8,7 @@ readdirSync(VIDEO_PATH)
   .filter((file) => file.endsWith('.json'))
   .forEach((file) => {
     const video = JSON.parse(readFile(`${VIDEO_PATH}${file}`));
-    console.log(video.title);
+    console.log('🎞️', video.title);
     allVideos.push(convertToItem(video));
   });
 
