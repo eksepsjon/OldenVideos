@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "reqX-nwQKvL3pnhXZ6rHGpqJI1o",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "OIW_cC6StcFEmpuFtTYYttzhOro",
+      "id": "mLyOj_QD4a4",
+      "snippet": {
+        "publishedAt": "2014-06-11T07:30:48Z",
+        "channelId": "UCt26iE9tFhCNOUdh8FLshFw",
+        "title": "Leeroy Jenkins HD 1080p",
+        "description": "Leeroy Jenkins in HD 1080p\n\nENJOY!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mLyOj_QD4a4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mLyOj_QD4a4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mLyOj_QD4a4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mLyOj_QD4a4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mLyOj_QD4a4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "J Jonah Jameson",
+        "tags": [
+          "Leeroy Jenkins",
+          "World Of Warcraft (Video Game)",
+          "Video Game (Industry)"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Leeroy Jenkins HD 1080p",
+          "description": "Leeroy Jenkins in HD 1080p\n\nENJOY!"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M52S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
