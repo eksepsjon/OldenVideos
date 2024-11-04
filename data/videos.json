@@ -234,19 +234,6 @@
     }
   },
   {
-    "id": "_JpMPAaQSyQ",
-    "title": "Original Numa Numa Guy",
-    "publishedAt": "2008-05-17T00:18:33.000Z",
-    "importedAt": "2024-11-04T08:10:12.505Z",
-    "duration": 101,
-    "thumbnail": "https://i.ytimg.com/vi/_JpMPAaQSyQ/default.jpg",
-    "source": "youtube",
-    "channel": {
-      "id": "UCmVZBFMR6yiiiss_KQDWVVw",
-      "name": "UploadInc"
-    }
-  },
-  {
     "id": "8fvTxv46ano",
     "title": "All Your Base Are Belong To Us (Original)",
     "publishedAt": "2008-06-08T03:35:14.000Z",
@@ -491,6 +478,19 @@
     "channel": {
       "id": "UCyEp3J9ifu6bKtOWKf8SoVg",
       "name": "Wild Candy"
+    }
+  },
+  {
+    "id": "Cqd1Gvq-RBY",
+    "title": "Numa Numa",
+    "publishedAt": "2017-04-02T00:57:15.000Z",
+    "importedAt": "2024-11-04T09:07:57.976Z",
+    "duration": 100,
+    "thumbnail": "https://i.ytimg.com/vi/Cqd1Gvq-RBY/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCP4oSek0INl_x4to9CSBANA",
+      "name": "Gary Brolsma"
     }
   },
   {
