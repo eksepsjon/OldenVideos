@@ -1,0 +1,64 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "P5PzAlefw_JJBlLHsiPVKwmqmwI",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "87buZAQd91nR2rY8IHgj4XB_eUw",
+      "id": "y6EDlD_fWn0",
+      "snippet": {
+        "publishedAt": "2019-04-19T04:57:01Z",
+        "channelId": "UC5XG8XZX0qF6yoVk925aNZA",
+        "title": "Hercules - DISAPPOINTED! (High Quality)",
+        "description": "From the episode \"Armageddon Now: Part 1\" of the TV show \"Hercules: The Legendary Journeys.\"",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y6EDlD_fWn0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y6EDlD_fWn0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y6EDlD_fWn0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/y6EDlD_fWn0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "OddTomato",
+        "tags": [
+          "Hercules",
+          "disappointed",
+          "tv show"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Hercules - DISAPPOINTED! (High Quality)",
+          "description": "From the episode \"Armageddon Now: Part 1\" of the TV show \"Hercules: The Legendary Journeys.\""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
