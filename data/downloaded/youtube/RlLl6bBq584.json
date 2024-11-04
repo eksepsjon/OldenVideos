@@ -1,0 +1,75 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "F9A_L_hMtZxo0GA1V13QG9kB_Ss",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "zju47yQBJ3-wtvR_MtYYI6fs3fk",
+      "id": "RlLl6bBq584",
+      "snippet": {
+        "publishedAt": "2022-04-04T14:38:48Z",
+        "channelId": "UCIZ2SIgwG2ChAQeXUE0y7Lg",
+        "title": "Onyxia Wipe Animation - YouTube Approved Edition",
+        "description": "UPDATE: I have re-uploaded the video to Rumble:\nOriginal: https://rumble.com/v1dqrqn-onyxia-wipe-animation.html\nHi Def: https://rumble.com/v1dqsdp-onyxia-wipe-animation-1080p.html\n\nSince YouTube decided to take down my original video that was uploaded 13 years ago, with over 9 million views because it violated their policy on \"violent or graphic content\", I have made this 100% totally ok version that only includes YouTube approved content.\n\nIf you feel like wanting to pour bleach into your eyes, you can view the YouTube approved video that I got the new content from @ https://www.youtube.com/watch?v=SWDTdXH6oF0\n\nThe original CANNOT still be seen @ https://www.youtube.com/watch?v=HtvIYRrgZ04 in all it's low-res glory, but you can watch my 1080p re-upload @ https://www.youtube.com/watch?v=JDGQ_8fAELo.\n\nOriginal video description:\n\nOnyxia Wipe Animation\n============================\nThis is an animation I made back in April 2006 about an unsuccessful, but yet disturbingly hilarious, attempt to defeat the dragon Onyxia from World of Warcraft.\n\nThe audio was created by \"Dives\" from the guild Wipe Club, I had nothing to do with its creation, I only made the animation.\n\nNote: This was made pre-BC. That's right, the level cap was still 60, so you couldn't solo her back then.\n\nPS: Cheers to the guys from \"Wipe Club\" (link not available) for making the sound clip!\n\nCheck out this animation made by MadSeasonShow of Wipe Club's Ragnaros Wipe: https://youtu.be/HGXjoAqjKFU\n\n\nSee an interview with Dives on Warcraft Radio: https://www.youtube.com/watch?v=NzfCrWb2Hd4\n\n============================\nCredits:\nOrlando Bloom - Pirates of the Caribbean\n'Priest' comic - Flintlocke's Guide to Azeroth (https://flintlocke.thecomicseries.com/)\nAudio - \"Dives\", Wipeclub (link not available)\n\"Two Rows\" image - The Wartime Biggles Band\n============================\nAdditional Info:\n - DKP: Dragon Kill Points: essentially a barter system where you gain points for killing bosses, attending raids, etc and use them to buy items that are dropped by said bosses.\n - Why is Orlando Bloom the whelp? Because in \"Pirates of the Caribbean\", Captain Jack and Barbosa have a conversation in which they refer to Will as a whelp.\n - The song in the background is \"Marco V - Godd\", or so I've been told. I can't confirm this, as I've never heard the song myself (except, of course, during the video).",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RlLl6bBq584/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RlLl6bBq584/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RlLl6bBq584/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/RlLl6bBq584/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/RlLl6bBq584/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Alachas1985",
+        "tags": [
+          "World of Warcraft",
+          "Onyxia",
+          "Dives",
+          "Wipe Club",
+          "Wipe",
+          "Raid"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Onyxia Wipe Animation - YouTube Approved Edition",
+          "description": "UPDATE: I have re-uploaded the video to Rumble:\nOriginal: https://rumble.com/v1dqrqn-onyxia-wipe-animation.html\nHi Def: https://rumble.com/v1dqsdp-onyxia-wipe-animation-1080p.html\n\nSince YouTube decided to take down my original video that was uploaded 13 years ago, with over 9 million views because it violated their policy on \"violent or graphic content\", I have made this 100% totally ok version that only includes YouTube approved content.\n\nIf you feel like wanting to pour bleach into your eyes, you can view the YouTube approved video that I got the new content from @ https://www.youtube.com/watch?v=SWDTdXH6oF0\n\nThe original CANNOT still be seen @ https://www.youtube.com/watch?v=HtvIYRrgZ04 in all it's low-res glory, but you can watch my 1080p re-upload @ https://www.youtube.com/watch?v=JDGQ_8fAELo.\n\nOriginal video description:\n\nOnyxia Wipe Animation\n============================\nThis is an animation I made back in April 2006 about an unsuccessful, but yet disturbingly hilarious, attempt to defeat the dragon Onyxia from World of Warcraft.\n\nThe audio was created by \"Dives\" from the guild Wipe Club, I had nothing to do with its creation, I only made the animation.\n\nNote: This was made pre-BC. That's right, the level cap was still 60, so you couldn't solo her back then.\n\nPS: Cheers to the guys from \"Wipe Club\" (link not available) for making the sound clip!\n\nCheck out this animation made by MadSeasonShow of Wipe Club's Ragnaros Wipe: https://youtu.be/HGXjoAqjKFU\n\n\nSee an interview with Dives on Warcraft Radio: https://www.youtube.com/watch?v=NzfCrWb2Hd4\n\n============================\nCredits:\nOrlando Bloom - Pirates of the Caribbean\n'Priest' comic - Flintlocke's Guide to Azeroth (https://flintlocke.thecomicseries.com/)\nAudio - \"Dives\", Wipeclub (link not available)\n\"Two Rows\" image - The Wartime Biggles Band\n============================\nAdditional Info:\n - DKP: Dragon Kill Points: essentially a barter system where you gain points for killing bosses, attending raids, etc and use them to buy items that are dropped by said bosses.\n - Why is Orlando Bloom the whelp? Because in \"Pirates of the Caribbean\", Captain Jack and Barbosa have a conversation in which they refer to Will as a whelp.\n - The song in the background is \"Marco V - Godd\", or so I've been told. I can't confirm this, as I've never heard the song myself (except, of course, during the video)."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M42S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {
+          "ytRating": "ytAgeRestricted"
+        },
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

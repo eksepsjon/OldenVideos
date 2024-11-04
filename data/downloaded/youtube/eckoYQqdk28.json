@@ -1,0 +1,71 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "6ZeS3KvWIhXxvr07IIVpQDwMRS4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "bKkdsjuoDaMFUOZQXLGMRipfEWQ",
+      "id": "eckoYQqdk28",
+      "snippet": {
+        "publishedAt": "2007-07-17T01:34:32Z",
+        "channelId": "UCcE9DoKCOvIkS-IPNa5pXpA",
+        "title": "Duke Nukem: Balls of Steel!",
+        "description": "\"It's time to kick ass and chew bubble gum...and I'm all out of gum.\"\n\nVideoCompiler serves up some major pwnage in this Ventrilo harassment prank.\n\nCredit: VideoCompiler",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eckoYQqdk28/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eckoYQqdk28/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eckoYQqdk28/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ricky Tomatoes",
+        "tags": [
+          "duke",
+          "nukem",
+          "forever",
+          "balls",
+          "steel",
+          "ventrilo",
+          "vent",
+          "voip",
+          "lotr",
+          "owned",
+          "ownage",
+          "pwnage",
+          "lol"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Duke Nukem: Balls of Steel!",
+          "description": "\"It's time to kick ass and chew bubble gum...and I'm all out of gum.\"\n\nVideoCompiler serves up some major pwnage in this Ventrilo harassment prank.\n\nCredit: VideoCompiler"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT5M41S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {
+          "ytRating": "ytAgeRestricted"
+        },
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
