@@ -11,7 +11,7 @@ export interface ButtonProps {
 
 /** Primary UI component for user interaction */
 export const ClipPreview = ({ clip }: ButtonProps) => {
-  const videoLink = `https://www.youtube.com/watch?v=${clip.id}`;
+  const videoLink = `../${clip.id}`;
   const channelLink = `https://www.youtube.com/channel/${clip.channel.id}`;
   const relativeTime = moment(clip.publishedAt).fromNow();
   const formattedTime = moment(clip.publishedAt).format('MMMM Do YYYY');
