@@ -2,11 +2,17 @@ import 'dotenv/config';
 import { convertYoutubeToVideo, fetchWithYoutubeApi, getYoutubeId, YOUTUBE_PATH } from '@/lib/youtube';
 import { META_PATH, VIDEO_PATH, writeIfNotExists } from '@/lib/file';
 import { Video } from '@/models';
+import { mkdirSync } from 'fs';
 
 console.log(
   'Importing Youtube videos',
   process.argv.filter((val, index) => index > 1),
 );
+
+console.log('📁 Creating directories');
+mkdirSync(YOUTUBE_PATH, { recursive: true });
+mkdirSync(VIDEO_PATH, { recursive: true });
+mkdirSync(META_PATH, { recursive: true });
 
 process.argv.forEach(async (val: string, index: number) => {
   const youtubeId = getYoutubeId(val);
@@ -14,6 +20,8 @@ process.argv.forEach(async (val: string, index: number) => {
   if (!youtubeId) {
     return;
   }
+
+  console.log('🤖 Found Youtube id', youtubeId);
 
   try {
     const ytData = await writeIfNotExists(`${YOUTUBE_PATH}${youtubeId}.json`, async () => {
