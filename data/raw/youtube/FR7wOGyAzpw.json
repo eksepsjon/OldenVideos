@@ -1,0 +1,85 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "R-OEb6Is5lxyR1vu6lQeOGFBzv4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "w6SivaWMw6MNsgRHBy7imtkjh4U",
+      "id": "FR7wOGyAzpw",
+      "snippet": {
+        "publishedAt": "2007-07-20T19:01:54Z",
+        "channelId": "UClun-yfbTSodFX4mzrm0DAg",
+        "title": "Fabulous Secret Powers",
+        "description": "So, here's a little backstory on this video. This is the original video from which the \"HEHEYYEYAAEYAAAEYAEYAA\" / \"He-Man Sings\" meme was born. (FULL HISTORY IS BELOW)\n\nWe made this video in 2005 and posted it to the Something Awful forums:\nhttp://secretpowers.net/reddit/fsp_history.html\n\nIn 2006, dkilzer2000 posted it to youtube:\nhttp://www.youtube.com/watch?v=X8Nc8RCLy1s\n\nWe finally got around to posting it to our own page in 2007 (you are here).\n\nThen, in 2010, in the process of redesigning our company web site, we posted it to Vimeo:\nhttp://vimeo.com/8564338\n\nWe did not disable the \"Download the source video\" option on Vimeo, nor did we leave our watermark on the video as we had on the YouTube version.  From Vimeo, people grabbed the \"high quality\" version, edited out the intro and outro (which included all of our credits), and posted it again to YouTube. As it turns out, removing the intro and outro was a very smart and viral-y decision by ProtoOfSnagem and others, because the video has gotten over 60M views in this abbreviated form. We tried for over a year to get ProtoOfSnagem to at least credit us for the video, but he never responded  -- in fact, it seemed to be a dead YouTube account -- so on 11/14/12 we flagged it and YouTube pulled it down, along with over TWO YEARS of your comments. :(\n\nOn 11/15/12, we retracted the claim on ProtoOfSnagem's version. Our only goal was to prompt Proto to credit us in his description, but instead it just felt like we broke this joyful little corner of the Internet and made a lot of people sad. That is the OPPOSITE of what this video is all about.\n\n11/16/12 -- ProtoOfSnagem's version returned to YouTube. We have no plans to pull it down again, as we feel this video belongs to you, the Internet Citizens, at this point.\n\nSince 2005, there have been all manner of tributes, remixes and even 5-10 hour loops of the video. We've collected our favorite tributes to Fabulous Secret Powers here:\n\nhttp://www.youtube.com/playlist?list=PLXtM1K03stJo3vKejGKKUMqpuPbILVveF\n\nAll of this is to say, we are extremely happy so many people have enjoyed this video over the years. And if you're here watching the original, sitting through the smooth intro tones of my Yamaha DX7 (aka the Doogie Howser-o-matic, which you can pry out of my cold, dead hands) we appreciate you!\n\nLove,\n\nSlackcircus\n\n==========================================\n\nMore history via Know Your Meme:\nhttp://knowyourmeme.com/memes/he-man-sings\n\n\nOfficial MP3 Single Available Now:\n♪ iTunes: http://bit.ly/HeyyeyaaiTunes\n♪ Amazon: http://bit.ly/HeyyeyaaAmazon\n♪ Google: http://bit.ly/HeyyeyaaGoogle\n\nOfficial Ringtone (link only works from iPhone / iPad):\n♪ iTunes: https://itunes.apple.com/us/album/heyyeyaaeyaaaeyaeyaa-fabulous/id804877685?i=804877698\n\nThanks to everyone who's supported our video over the years.\n\nCredits:\n\nFabulous Secret Powers - created by Ryan Haines & Jay Allen, 2005, SLACKCiRCUS\n\nSong is a parody cover of \"What's Up\" by 4 Non Blondes ©1992 Interscope Records:\nhttp://youtu.be/6NXnxTNIWkc\n\n\"He-Man & The Masters of the Universe\" is property of DreamWorks Classics (formerly Classic Media).:\nhttp://classics.dreamworksanimation.com/\n\n\nLYRICS:\n\nTwenty-five years and my life is still \nTrying to get up that great big hill of hope \nFor a destination \n\nAnd I realized quickly when I knew I should \nThat the world was made up of this brotherhood of man \nFor whatever that means \n\nAnd so I cry sometimes \nWhen I'm lying in bed \nJust to get it all out \nWhat's in my head \nAnd I am feeling a little peculiar \nAnd so I wake in the morning \nAnd I step outside \nAnd I take a deep breath and I get real high \nAnd I scream at the top of my lungs \nWhat's going on? \n\nAnd I say, hey hey hey hey \nI said hey, what's going on? \n\nand he tries, oh my god do I try \nI try all the time, in this institution \nAnd he prays, oh my god do I pray \nI pray every single day (MYAAAAH!)\nFor a revolution \n\nAnd I say, hey hey hey hey \nI said hey, what's going on? \n\nAnd I say\nhey hey hey hey \nI said hey, what's going on?\n(Don't cry out loud, just keep it inside, learn how to hide your feelings)\n\nhey hey hey hey \nI said hey, what's going on?\n\nTwenty-five years and my life is still \nTrying to get up that great big hill of hope \nFor a destination\n\n#slackcircus #hemanimated #fabuloussecretpowers",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FR7wOGyAzpw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FR7wOGyAzpw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FR7wOGyAzpw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/FR7wOGyAzpw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "slackcircus",
+        "tags": [
+          "he-man",
+          "said",
+          "hey",
+          "cake",
+          "slackcircus",
+          "fabulous",
+          "secret",
+          "powers",
+          "mastersoftheuniverse",
+          "4nonblondes",
+          "slack",
+          "circus",
+          "MWYAAAH",
+          "mnyaahh",
+          "skeletor",
+          "beastman",
+          "whatsup",
+          "hemansings",
+          "HEYYEYAAEYAAAEYAEYAA",
+          "ProtoOfSnagem",
+          "he man sings",
+          "he-man sings",
+          "what's going on",
+          "he man said hey"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Fabulous Secret Powers",
+          "description": "So, here's a little backstory on this video. This is the original video from which the \"HEHEYYEYAAEYAAAEYAEYAA\" / \"He-Man Sings\" meme was born. (FULL HISTORY IS BELOW)\n\nWe made this video in 2005 and posted it to the Something Awful forums:\nhttp://secretpowers.net/reddit/fsp_history.html\n\nIn 2006, dkilzer2000 posted it to youtube:\nhttp://www.youtube.com/watch?v=X8Nc8RCLy1s\n\nWe finally got around to posting it to our own page in 2007 (you are here).\n\nThen, in 2010, in the process of redesigning our company web site, we posted it to Vimeo:\nhttp://vimeo.com/8564338\n\nWe did not disable the \"Download the source video\" option on Vimeo, nor did we leave our watermark on the video as we had on the YouTube version.  From Vimeo, people grabbed the \"high quality\" version, edited out the intro and outro (which included all of our credits), and posted it again to YouTube. As it turns out, removing the intro and outro was a very smart and viral-y decision by ProtoOfSnagem and others, because the video has gotten over 60M views in this abbreviated form. We tried for over a year to get ProtoOfSnagem to at least credit us for the video, but he never responded  -- in fact, it seemed to be a dead YouTube account -- so on 11/14/12 we flagged it and YouTube pulled it down, along with over TWO YEARS of your comments. :(\n\nOn 11/15/12, we retracted the claim on ProtoOfSnagem's version. Our only goal was to prompt Proto to credit us in his description, but instead it just felt like we broke this joyful little corner of the Internet and made a lot of people sad. That is the OPPOSITE of what this video is all about.\n\n11/16/12 -- ProtoOfSnagem's version returned to YouTube. We have no plans to pull it down again, as we feel this video belongs to you, the Internet Citizens, at this point.\n\nSince 2005, there have been all manner of tributes, remixes and even 5-10 hour loops of the video. We've collected our favorite tributes to Fabulous Secret Powers here:\n\nhttp://www.youtube.com/playlist?list=PLXtM1K03stJo3vKejGKKUMqpuPbILVveF\n\nAll of this is to say, we are extremely happy so many people have enjoyed this video over the years. And if you're here watching the original, sitting through the smooth intro tones of my Yamaha DX7 (aka the Doogie Howser-o-matic, which you can pry out of my cold, dead hands) we appreciate you!\n\nLove,\n\nSlackcircus\n\n==========================================\n\nMore history via Know Your Meme:\nhttp://knowyourmeme.com/memes/he-man-sings\n\n\nOfficial MP3 Single Available Now:\n♪ iTunes: http://bit.ly/HeyyeyaaiTunes\n♪ Amazon: http://bit.ly/HeyyeyaaAmazon\n♪ Google: http://bit.ly/HeyyeyaaGoogle\n\nOfficial Ringtone (link only works from iPhone / iPad):\n♪ iTunes: https://itunes.apple.com/us/album/heyyeyaaeyaaaeyaeyaa-fabulous/id804877685?i=804877698\n\nThanks to everyone who's supported our video over the years.\n\nCredits:\n\nFabulous Secret Powers - created by Ryan Haines & Jay Allen, 2005, SLACKCiRCUS\n\nSong is a parody cover of \"What's Up\" by 4 Non Blondes ©1992 Interscope Records:\nhttp://youtu.be/6NXnxTNIWkc\n\n\"He-Man & The Masters of the Universe\" is property of DreamWorks Classics (formerly Classic Media).:\nhttp://classics.dreamworksanimation.com/\n\n\nLYRICS:\n\nTwenty-five years and my life is still \nTrying to get up that great big hill of hope \nFor a destination \n\nAnd I realized quickly when I knew I should \nThat the world was made up of this brotherhood of man \nFor whatever that means \n\nAnd so I cry sometimes \nWhen I'm lying in bed \nJust to get it all out \nWhat's in my head \nAnd I am feeling a little peculiar \nAnd so I wake in the morning \nAnd I step outside \nAnd I take a deep breath and I get real high \nAnd I scream at the top of my lungs \nWhat's going on? \n\nAnd I say, hey hey hey hey \nI said hey, what's going on? \n\nand he tries, oh my god do I try \nI try all the time, in this institution \nAnd he prays, oh my god do I pray \nI pray every single day (MYAAAAH!)\nFor a revolution \n\nAnd I say, hey hey hey hey \nI said hey, what's going on? \n\nAnd I say\nhey hey hey hey \nI said hey, what's going on?\n(Don't cry out loud, just keep it inside, learn how to hide your feelings)\n\nhey hey hey hey \nI said hey, what's going on?\n\nTwenty-five years and my life is still \nTrying to get up that great big hill of hope \nFor a destination\n\n#slackcircus #hemanimated #fabuloussecretpowers"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT4M29S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

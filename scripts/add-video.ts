@@ -30,7 +30,9 @@ process.argv.forEach(async (val: string, index: number) => {
     writeIfNotExists(`${META_PATH}${youtubeId}.json`, () => {
       const processed = JSON.parse(processedData) as Video;
 
-      return Promise.resolve(JSON.stringify({ importedAt: processed.importedAt }, null, 2));
+      return Promise.resolve(
+        JSON.stringify({ importedAt: processed.importedAt, publishedAt: processed.publishedAt }, null, 2),
+      );
     });
   } catch (err: any) {
     console.error(err);
