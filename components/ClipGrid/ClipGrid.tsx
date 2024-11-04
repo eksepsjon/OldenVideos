@@ -12,10 +12,12 @@ export interface ButtonProps {
 /** Primary UI component for user interaction */
 export const ClipGrid = ({ clips }: ButtonProps) => {
   return (
-    <div className={classes.grid}>
-      {clips.map((clip) => {
-        return <ClipPreview key={clip.id} clip={clip} />;
-      })}
+    <div className={classes.gridContainer}>
+      <div className={classes.grid}>
+        {clips.map((clip) => {
+          return <ClipPreview key={clip.id} clip={clip} />;
+        })}
+      </div>
     </div>
   );
 };

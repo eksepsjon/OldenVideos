@@ -6,10 +6,7 @@ import { ClipGrid } from './ClipGrid';
 const meta = {
   title: 'Clip/ClipGrid',
   component: ClipGrid,
-  parameters: {
-    // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
-    layout: 'centered',
-  },
+  parameters: {},
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
 } satisfies Meta<typeof ClipGrid>;

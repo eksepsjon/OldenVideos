@@ -18,10 +18,12 @@ readdirSync(VIDEO_PATH)
   });
 
 writeFile(
-  'data/videos.json',
-  JSON.stringify(
-    allVideos.sort((a, b) => a.publishedAt.localeCompare(b.publishedAt)),
-    null,
-    2,
-  ),
+  'data/videos.ts',
+  'import { VideoItem } from "@/models";\n\nexport const allVideos: VideoItem[] = ' +
+    JSON.stringify(
+      allVideos.sort((a, b) => a.publishedAt.localeCompare(b.publishedAt)),
+      null,
+      2,
+    ) +
+    ';',
 );

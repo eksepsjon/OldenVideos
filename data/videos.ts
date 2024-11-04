@@ -1,4 +1,6 @@
-[
+import { VideoItem } from "@/models";
+
+export const allVideos: VideoItem[] = [
   {
     "id": "-5x5OXfe9KY",
     "title": "Oogachaka Baby",
@@ -805,4 +807,4 @@
       "name": "OddTomato"
     }
   }
-]
+];
