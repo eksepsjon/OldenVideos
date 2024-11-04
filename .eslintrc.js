@@ -3,7 +3,14 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['next', 'plugin:css/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:storybook/recommended', 'plugin:storybook/recommended', 'plugin:storybook/recommended'],
+  extends: [
+    'next',
+    'plugin:css/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:storybook/recommended',
+    'plugin:storybook/recommended',
+    'plugin:storybook/recommended',
+  ],
   overrides: [
     {
       env: {
@@ -24,6 +31,7 @@ module.exports = {
   rules: {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-explicit-any': 'warning',
     'react/require-default-props': [
       'off',
       {
