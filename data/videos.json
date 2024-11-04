@@ -52,6 +52,19 @@
     }
   },
   {
+    "id": "Dt4zvJNXbdI",
+    "title": "I'm a Kitty Cat",
+    "publishedAt": "2005-11-29T20:33:35.000Z",
+    "importedAt": "2024-11-04T11:13:16.994Z",
+    "duration": 91,
+    "thumbnail": "https://i.ytimg.com/vi/Dt4zvJNXbdI/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UC0JZaZm0a0nSdirtAyGkzPQ",
+      "name": "Shanee Pigate"
+    }
+  },
+  {
     "id": "9AiWBCGz5Ws",
     "title": "Star Wars III l33t trailer",
     "publishedAt": "2005-12-03T05:10:05.000Z",
@@ -221,6 +234,19 @@
     }
   },
   {
+    "id": "K2cYWfq--Nw",
+    "title": "Daft Hands - Harder, Better, Faster, Stronger",
+    "publishedAt": "2007-06-07T04:06:40.000Z",
+    "importedAt": "2024-11-04T11:17:23.669Z",
+    "duration": 225,
+    "thumbnail": "https://i.ytimg.com/vi/K2cYWfq--Nw/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UC0ec8Y7JbD5ZBxm_axuD0Gg",
+      "name": "Fr. Eckle Studios"
+    }
+  },
+  {
     "id": "J---aiyznGQ",
     "title": "Keyboard Cat! - THE ORIGINAL!",
     "publishedAt": "2007-06-07T19:45:44.000Z",
@@ -270,6 +296,19 @@
     "channel": {
       "id": "UCXfarUtHQm0Nc0CCMmQiiwA",
       "name": "IRamzayI"
+    }
+  },
+  {
+    "id": "FwsntHcWiy4",
+    "title": "TECHNOVIKING! (Captioned)",
+    "publishedAt": "2007-09-30T21:14:37.000Z",
+    "importedAt": "2024-11-04T11:12:29.095Z",
+    "duration": 242,
+    "thumbnail": "https://i.ytimg.com/vi/FwsntHcWiy4/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCQ3nbMIKk9KsvW6odc-EI_A",
+      "name": "rawrcore"
     }
   },
   {
@@ -468,6 +507,19 @@
     }
   },
   {
+    "id": "OQSNhk5ICTI",
+    "title": "Yosemitebear Mountain Double Rainbow 1-8-10",
+    "publishedAt": "2010-01-09T02:14:30.000Z",
+    "importedAt": "2024-11-04T11:16:19.312Z",
+    "duration": 210,
+    "thumbnail": "https://i.ytimg.com/vi/OQSNhk5ICTI/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCTyFi_QGObn2xEzasG_zR8Q",
+      "name": "Yosemitebear62"
+    }
+  },
+  {
     "id": "DD5UKQggXTc",
     "title": "The Annoying Orange (Original)",
     "publishedAt": "2010-02-15T20:07:37.000Z",
@@ -520,6 +572,19 @@
     }
   },
   {
+    "id": "MX0D4oZwCsA",
+    "title": "DOUBLE RAINBOW SONG!!",
+    "publishedAt": "2010-07-06T19:58:16.000Z",
+    "importedAt": "2024-11-04T11:16:41.823Z",
+    "duration": 118,
+    "thumbnail": "https://i.ytimg.com/vi/MX0D4oZwCsA/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCNYrK4tc5i1-eL8TXesH2pg",
+      "name": "schmoyoho"
+    }
+  },
+  {
     "id": "0EqSXDwTq6U",
     "title": "Charlie bit my finger! ORIGINAL",
     "publishedAt": "2010-08-24T15:53:42.000Z",
@@ -569,6 +634,58 @@
     "channel": {
       "id": "UCoJNLMEBoQWD8J1XNl8cu7w",
       "name": "madringking1119"
+    }
+  },
+  {
+    "id": "Awf45u6zrP0",
+    "title": "Cat Jump Fail with Music: Sail by AWOLNATION",
+    "publishedAt": "2012-06-02T06:41:19.000Z",
+    "importedAt": "2024-11-04T11:11:31.220Z",
+    "duration": 36,
+    "thumbnail": "https://i.ytimg.com/vi/Awf45u6zrP0/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCgY6cDw4L-Cvqeo0j1QuYHA",
+      "name": "Veronica Duff"
+    }
+  },
+  {
+    "id": "Yh0AhrY9GjA",
+    "title": "JB Fanvideo",
+    "publishedAt": "2012-06-07T01:32:11.000Z",
+    "importedAt": "2024-11-04T11:18:21.286Z",
+    "duration": 182,
+    "thumbnail": "https://i.ytimg.com/vi/Yh0AhrY9GjA/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCzFGVUm_s5HP8d7u5vid_jw",
+      "name": "Laina"
+    }
+  },
+  {
+    "id": "DcJFdCmN98s",
+    "title": "OH MY DAYUM ft. @DaymDrops",
+    "publishedAt": "2012-08-15T22:04:48.000Z",
+    "importedAt": "2024-11-04T11:19:11.101Z",
+    "duration": 141,
+    "thumbnail": "https://i.ytimg.com/vi/DcJFdCmN98s/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCNYrK4tc5i1-eL8TXesH2pg",
+      "name": "schmoyoho"
+    }
+  },
+  {
+    "id": "5HO70-Rk3jE",
+    "title": "Troops (1997) Star Wars / COPS parody.  HQ video / original soundtrack",
+    "publishedAt": "2013-05-04T21:28:36.000Z",
+    "importedAt": "2024-11-04T11:15:19.358Z",
+    "duration": 609,
+    "thumbnail": "https://i.ytimg.com/vi/5HO70-Rk3jE/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UC7cs4Q-c5fSyk436-v4lxBg",
+      "name": "Alex Derevin"
     }
   },
   {

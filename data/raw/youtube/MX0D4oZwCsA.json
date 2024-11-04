@@ -1,0 +1,92 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "TamhLcDp5MKO3NAbCxMVmPw8_vo",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "Y-wuvjRzpFA-SXBLxudl1R_7Yug",
+      "id": "MX0D4oZwCsA",
+      "snippet": {
+        "publishedAt": "2010-07-06T19:58:16Z",
+        "channelId": "UCNYrK4tc5i1-eL8TXesH2pg",
+        "title": "DOUBLE RAINBOW SONG!!",
+        "description": "EDIT: the site of this video, Yosemitebear Mountain Farm just had an awful fire—support here: https://www.gofundme.com/f/kevin-and-irenes-oak-fire-disaster-relief-fund\nhttps://promofect.printavo.com/merch/yosemitebear/\n\nWe miss you, Yosemitebear––you'll be in every single, double, and triple rainbow we see 🌈🌈\nthe track: https://open.spotify.com/album/71dc7tAc2ujEFgWN3FmW1c\nOriginal video: http://www.youtube.com/watch?v=OQSNhk5ICTI\n\nSubscribe for more remixes/songifications--\n\nhttp://twitter.com/gregorybrothers\nhttp://instagram.com/gregorybrothers\nhttps://patreon.com/gregorybrothers\n\nLyrics/Chords:\nWhoa, that's a full rainbow all the way\nbm                       G\nDouble rainbow, oh my God, double rainbow\nD                                 A\nIt's a double rainbow all the way...damn\n          bm                                   G\nIt's a double rainbow all the way...damn, oh my God\n         D                                      A                f# m\nWhat does this mean? It's so bright, so vivid\nG                                       D\nDouble rainbow, double rainbow, it's so intense (tense)\nG                                     f# m\nWhat does this mean? It's startin to even look like a triple rainbow\nG                                  D\nThat's a whole rainbow, man, ahhhh!\nG                               F#\nDouble rainbow all the way 'cross the sky\nbm                                       G\nYeah, Yeeeeaaaaah, so intense\nD                            A               F#\nDouble rainbow all the way 'cross the sky\nbm                                        G\nWow, wow, oh my God, look at that rainbow\nD                                   A\n\nThe most famous double rainbow discovery ever--reimagined in song.\n\n#DoubleRainbow #YosemiteBear #SongifyThis",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MX0D4oZwCsA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MX0D4oZwCsA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MX0D4oZwCsA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "schmoyoho",
+        "tags": [
+          "double",
+          "rainbow",
+          "song",
+          "all",
+          "the",
+          "way",
+          "cross",
+          "sky",
+          "yeah",
+          "what",
+          "does",
+          "this",
+          "mean",
+          "yosemite",
+          "bear",
+          "auto",
+          "tune",
+          "remix",
+          "so",
+          "bright",
+          "vivid",
+          "intense",
+          "schmoyoho",
+          "shmoyoho",
+          "shmoyo",
+          "schmoyo",
+          "auto-tune",
+          "songify",
+          "snoop dogg",
+          "jimmy kimmel",
+          "snoopavision",
+          "kimmel",
+          "gregory",
+          "brothers"
+        ],
+        "categoryId": "1",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "DOUBLE RAINBOW SONG!!",
+          "description": "EDIT: the site of this video, Yosemitebear Mountain Farm just had an awful fire—support here: https://www.gofundme.com/f/kevin-and-irenes-oak-fire-disaster-relief-fund\nhttps://promofect.printavo.com/merch/yosemitebear/\n\nWe miss you, Yosemitebear––you'll be in every single, double, and triple rainbow we see 🌈🌈\nthe track: https://open.spotify.com/album/71dc7tAc2ujEFgWN3FmW1c\nOriginal video: http://www.youtube.com/watch?v=OQSNhk5ICTI\n\nSubscribe for more remixes/songifications--\n\nhttp://twitter.com/gregorybrothers\nhttp://instagram.com/gregorybrothers\nhttps://patreon.com/gregorybrothers\n\nLyrics/Chords:\nWhoa, that's a full rainbow all the way\nbm                       G\nDouble rainbow, oh my God, double rainbow\nD                                 A\nIt's a double rainbow all the way...damn\n          bm                                   G\nIt's a double rainbow all the way...damn, oh my God\n         D                                      A                f# m\nWhat does this mean? It's so bright, so vivid\nG                                       D\nDouble rainbow, double rainbow, it's so intense (tense)\nG                                     f# m\nWhat does this mean? It's startin to even look like a triple rainbow\nG                                  D\nThat's a whole rainbow, man, ahhhh!\nG                               F#\nDouble rainbow all the way 'cross the sky\nbm                                       G\nYeah, Yeeeeaaaaah, so intense\nD                            A               F#\nDouble rainbow all the way 'cross the sky\nbm                                        G\nWow, wow, oh my God, look at that rainbow\nD                                   A\n\nThe most famous double rainbow discovery ever--reimagined in song.\n\n#DoubleRainbow #YosemiteBear #SongifyThis"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M58S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
