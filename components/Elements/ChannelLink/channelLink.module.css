@@ -1,0 +1,7 @@
+.channelLink::before {
+  content: '@';
+}
+.channelLink {
+  color: #aaa;
+  font-size: 1rem;
+}

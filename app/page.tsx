@@ -1,6 +1,6 @@
 'use client';
 
-import { ClipGrid } from '@/components/ClipGrid/ClipGrid';
+import { ClipGrid } from '@/components/Clip/ClipGrid/ClipGrid';
 import { allVideos } from '@/data/videos';
 import { shuffle } from '@/lib/util';
 import { VideoItem } from '@/models';
@@ -16,12 +16,12 @@ export default function Home() {
 
   return (
     <div>
+      <h1>Olden Videos</h1>
+      <p>Forklare hva OldenVideos er.</p>
       <h2>Newly added</h2>
       <ClipGrid clips={newlyAdded} />
       <h2>Random</h2>
       <ClipGrid clips={shuffled} />
-      <h2>All</h2>
-      <ClipGrid clips={allVideos} />
     </div>
   );
 }

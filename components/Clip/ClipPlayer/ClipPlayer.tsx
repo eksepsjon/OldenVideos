@@ -9,6 +9,7 @@ import { shuffle } from '@/lib/util';
 import { allVideos } from '@/data/videos';
 import { ClipGrid } from '../ClipGrid/ClipGrid';
 import moment from 'moment';
+import Link from 'next/link';
 
 export interface ButtonProps {
   clip: VideoItem;
@@ -39,9 +40,9 @@ export const ClipPlayer = ({ clip }: ButtonProps) => {
       ></iframe>
       <h1>{clip.title}</h1>
       <div>
-        <a className={classes.channelLink} href={channelLink}>
+        <Link href={channelLink} className={classes.channelLink}>
           {clip.channel.name}
-        </a>
+        </Link>
         &nbsp;-&nbsp;
         <span className={classes.timestamp} title={formattedTime}>
           {relativeTime}

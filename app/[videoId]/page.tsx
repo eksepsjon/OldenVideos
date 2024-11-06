@@ -1,4 +1,4 @@
-import { ClipPlayer } from '@/components/ClipPlayer/ClipPlayer';
+import { ClipPlayer } from '@/components/Clip/ClipPlayer/ClipPlayer';
 import { allVideos } from '@/data/videos';
 import React from 'react';
 

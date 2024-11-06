@@ -535,19 +535,6 @@ export const allVideos: VideoItem[] = [
     }
   },
   {
-    "id": "I3cGfrExozQ",
-    "title": "Morgan freeman solves the race problem.",
-    "publishedAt": "2008-10-11T09:32:11.000Z",
-    "importedAt": "2024-11-05T14:35:47.668Z",
-    "duration": 55,
-    "thumbnail": "https://i.ytimg.com/vi/I3cGfrExozQ/default.jpg",
-    "source": "youtube",
-    "channel": {
-      "id": "UC8eR01yM4WMH-ZpZk6L2CsA",
-      "name": "randypagan"
-    }
-  },
-  {
     "id": "Yavx9yxTrsw",
     "title": "FOAR EVERYWUN FRUM BOXXY",
     "publishedAt": "2009-01-10T05:37:10.000Z",

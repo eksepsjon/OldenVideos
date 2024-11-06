@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { ClipPreview } from './ClipPreview';
+import { ClipThumb } from './ClipThumb';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Clip/ClipPreview',
-  component: ClipPreview,
+  title: 'Clip/Thumb',
+  component: ClipThumb,
   parameters: {},
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
-} satisfies Meta<typeof ClipPreview>;
+} satisfies Meta<typeof ClipThumb>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

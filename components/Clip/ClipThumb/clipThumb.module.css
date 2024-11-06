@@ -10,14 +10,6 @@
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 }
-.channelLink::before {
-  content: '@';
-}
-.channelLink,
-.timestamp {
-  color: #aaa;
-  font-size: 1rem;
-}
 .thumbLink {
   aspect-ratio: 16 / 9;
   border-radius: 0.5rem;
