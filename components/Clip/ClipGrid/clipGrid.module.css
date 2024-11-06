@@ -2,13 +2,11 @@
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  background-color: black;
 }
 .gridContainer {
   container-type: inline-size;
   container-name: gridContainer;
   width: 100%;
-  max-width: 1280px;
 }
 
 @container gridContainer (min-width: 500px) {

@@ -10,6 +10,8 @@ import { allVideos } from '@/data/videos';
 import { ClipGrid } from '../ClipGrid/ClipGrid';
 import moment from 'moment';
 import Link from 'next/link';
+import { ChannelLink } from '@/components/Elements/ChannelLink/ChannelLink';
+import { TimeOfVideo } from '@/components/Elements/TimeOfVideo/TimeOfVideo';
 
 export interface ButtonProps {
   clip: VideoItem;
@@ -30,25 +32,21 @@ export const ClipPlayer = ({ clip }: ButtonProps) => {
   }, []);
 
   return (
-    <div className={classes.clip}>
+    <div>
       <iframe
-        width="560"
-        height="315"
+        width="100%"
+        height="480"
         src={`https://www.youtube.com/embed/${videoId}?&autoplay=1`}
         frameBorder="0"
         allowFullScreen
       ></iframe>
-      <h1>{clip.title}</h1>
+      <h2 className="title is-2">{clip.title}</h2>
       <div>
-        <Link href={channelLink} className={classes.channelLink}>
-          {clip.channel.name}
-        </Link>
+        <ChannelLink channel={clip.channel} />
         &nbsp;-&nbsp;
-        <span className={classes.timestamp} title={formattedTime}>
-          {relativeTime}
-        </span>
+        <TimeOfVideo clip={clip} />
       </div>
-      <h2>Other random videos</h2>
+      <h3 className="title is-4">Other random videos</h3>
       <ClipGrid clips={shuffled} />
     </div>
   );

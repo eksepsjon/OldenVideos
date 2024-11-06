@@ -1,33 +1,4 @@
 .clip {
   display: flex;
   flex-direction: column;
-  background: black;
-}
-.clipLink {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
-}
-.channelLink::before {
-  content: '@';
-}
-.channelLink,
-.timestamp {
-  color: #aaa;
-  font-size: 1rem;
-}
-.thumbLink {
-  aspect-ratio: 16 / 9;
-  border-radius: 0.5rem;
-  width: 100%;
-}
-.thumbImage {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
 }

@@ -15,12 +15,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <h1>Olden Videos</h1>
+    <div className="container">
+      <h1 className="title is-1">Olden Videos</h1>
       <p>Forklare hva OldenVideos er.</p>
-      <h2>Newly added</h2>
+      <h2 className="title is-2">Newly added</h2>
       <ClipGrid clips={newlyAdded} />
-      <h2>Random</h2>
+      <h2 className="title is-2">Random</h2>
       <ClipGrid clips={shuffled} />
     </div>
   );

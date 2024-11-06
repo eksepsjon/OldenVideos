@@ -1,4 +1,5 @@
 import { ClipPlayer } from '@/components/Clip/ClipPlayer/ClipPlayer';
+import { Header } from '@/components/Page/Header/Header';
 import { allVideos } from '@/data/videos';
 import React from 'react';
 
@@ -13,5 +14,12 @@ export default function VideoPage({ params: { videoId } }: { params: { videoId: 
     return <div>Video not found</div>;
   }
 
-  return <ClipPlayer clip={video} />;
+  return (
+    <>
+      <Header />
+      <div className="container">
+        <ClipPlayer clip={video} />
+      </div>
+    </>
+  );
 }
