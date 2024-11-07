@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
-import classes from './channelLink.module.css';
 import { VideoChannel } from '@/models';
 import Link from 'next/link';
+import { Anchor, Text } from '@mantine/core';
 
 export interface ChannelLinkProps {
   channel: VideoChannel;
@@ -14,8 +14,10 @@ export const ChannelLink = ({ channel }: ChannelLinkProps) => {
   const channelLink = `https://www.youtube.com/channel/${channel.id}`;
 
   return (
-    <Link href={channelLink} className={classes.channelLink}>
-      {channel.name}
-    </Link>
+    <Text c="dimmed">
+      <Anchor href={channelLink} c="dimmed">
+        @{channel.name}
+      </Anchor>
+    </Text>
   );
 };

@@ -4,6 +4,7 @@ import { ClipGrid } from '@/components/Clip/ClipGrid/ClipGrid';
 import { allVideos } from '@/data/videos';
 import { shuffle } from '@/lib/util';
 import { VideoItem } from '@/models';
+import { Container, Text, Title } from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -15,13 +16,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="container">
-      <h1 className="title is-1">Olden Videos</h1>
-      <p>Forklare hva OldenVideos er.</p>
-      <h2 className="title is-2">Newly added</h2>
+    <Container>
+      <Title order={1}>Olden Videos</Title>
+      <Text>Forklare hva OldenVideos er.</Text>
+      <Title order={2}>Newly added</Title>
       <ClipGrid clips={newlyAdded} />
-      <h2 className="title is-2">Random</h2>
+      <Title order={2}>Random</Title>
       <ClipGrid clips={shuffled} />
-    </div>
+    </Container>
   );
 }

@@ -20,7 +20,9 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider theme={siteTheme}>{children}</MantineProvider>
+        <MantineProvider defaultColorScheme="dark" theme={siteTheme}>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );

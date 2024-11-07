@@ -21,7 +21,7 @@ const preview: Preview = {
     // 👇 Defining the decorator in the preview file applies it to all stories
     (Story) => {
       return (
-        <MantineProvider theme={theme}>
+        <MantineProvider defaultColorScheme="dark" theme={theme}>
           <Story />
         </MantineProvider>
       );
