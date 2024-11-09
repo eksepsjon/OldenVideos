@@ -1,0 +1,22 @@
+.logo,
+.logo::after,
+.logo::before {
+  display: block;
+  z-index: 2;
+  position: relative;
+}
+.logo::after,
+.logo::before {
+  position: absolute;
+  top: 0;
+}
+.logo::after {
+  content: attr(data-text);
+  margin-top: 5px;
+  z-index: 1;
+}
+.logo::before {
+  content: attr(data-text);
+  margin-top: -5px;
+  z-index: 0;
+}
