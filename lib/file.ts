@@ -8,6 +8,7 @@ export const writeIfNotExists = async (path: string, contentCallback: () => Prom
     console.log('🆗 File exists:', path);
     return Promise.resolve(readFile(path));
   }
+  console.log('🆗 Does not exist:', path);
   const content = await contentCallback();
   writeFileSync(path, content);
   return content;

@@ -31,14 +31,7 @@ export const ClipThumb = ({ clip }: ButtonProps) => {
       <Link aria-hidden href={videoLink} className={classes.thumbLink} style={style}>
         <span className={classes.duration}>{formatDuration(clip.duration)}</span>
       </Link>
-      <Anchor
-        variant="gradient"
-        lineClamp={2}
-        gradient={{ from: 'cyan', to: 'white' }}
-        component={Link}
-        href={videoLink}
-        className={classes.clipLink}
-      >
+      <Anchor lineClamp={2} component={Link} href={videoLink} className={classes.clipLink}>
         {clip.title}
       </Anchor>
       <ChannelLink channel={clip.channel} />

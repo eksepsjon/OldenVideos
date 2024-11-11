@@ -18,7 +18,7 @@ export default function VideoPage({ params: { videoId } }: { params: { videoId: 
   return (
     <>
       <Header />
-      <Container>
+      <Container size="lg" pt="xl">
         <ClipPlayer clip={video} />
       </Container>
     </>
