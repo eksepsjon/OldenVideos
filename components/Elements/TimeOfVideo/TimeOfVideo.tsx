@@ -3,7 +3,6 @@ import React from 'react';
 
 import { VideoItem } from '@/models';
 import moment from 'moment';
-import { Text } from '@mantine/core';
 
 export interface TimeOfVideoProps {
   clip: VideoItem;
@@ -15,8 +14,8 @@ export const TimeOfVideo = ({ clip }: TimeOfVideoProps) => {
   const formattedTime = moment(clip.publishedAt).format('MMMM Do YYYY');
 
   return (
-    <Text c="dimmed" title={formattedTime}>
+    <span title={formattedTime}>
       {relativeTime}
-    </Text>
+    </span>
   );
 };

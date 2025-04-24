@@ -3,23 +3,19 @@ import React from 'react';
 
 import { VideoItem } from '@/models';
 import { ClipThumb } from '../ClipThumb/ClipThumb';
-import { Grid } from '@mantine/core';
 
 export interface ButtonProps {
+  columns?: number;
   clips: VideoItem[];
 }
 
 /** Primary UI component for user interaction */
-export const ClipGrid = ({ clips }: ButtonProps) => {
+export const ClipGrid = ({ clips, columns = 1 }: ButtonProps) => {
   return (
-    <Grid>
+    <div className={`grid grid-cols-${columns} gap-4`}>
       {clips.map((clip) => {
-        return (
-          <Grid.Col key={clip.id} span={{ base: 6, xs: 4, sm: 3 }}>
-            <ClipThumb clip={clip} />
-          </Grid.Col>
-        );
+        return <ClipThumb key={clip.id} clip={clip} />;
       })}
-    </Grid>
+    </div>
   );
 };

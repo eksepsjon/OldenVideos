@@ -1,7 +1,6 @@
 import { ClipPlayer } from '@/components/Clip/ClipPlayer/ClipPlayer';
 import { Header } from '@/components/Page/Header/Header';
 import { allVideos } from '@/data/videos';
-import { Container } from '@mantine/core';
 import React from 'react';
 
 export async function generateStaticParams() {
@@ -18,9 +17,7 @@ export default function VideoPage({ params: { videoId } }: { params: { videoId: 
   return (
     <>
       <Header />
-      <Container size="lg" pt="xl">
         <ClipPlayer clip={video} />
-      </Container>
     </>
   );
 }

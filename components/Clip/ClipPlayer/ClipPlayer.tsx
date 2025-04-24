@@ -9,7 +9,6 @@ import { allVideos } from '@/data/videos';
 import { ClipGrid } from '../ClipGrid/ClipGrid';
 import { ChannelLink } from '@/components/Elements/ChannelLink/ChannelLink';
 import { TimeOfVideo } from '@/components/Elements/TimeOfVideo/TimeOfVideo';
-import { Card, Group, Stack, Title } from '@mantine/core';
 
 export interface ButtonProps {
   clip: VideoItem;
@@ -26,9 +25,9 @@ export const ClipPlayer = ({ clip }: ButtonProps) => {
 
   return (
     <div>
-      <Stack gap="xl">
-        <Card shadow="sm" padding="lg" radius="md" withBorder>
-          <Card.Section>
+      <div>
+        <div>
+          <div>
             <iframe
               width="100%"
               height="480"
@@ -36,23 +35,23 @@ export const ClipPlayer = ({ clip }: ButtonProps) => {
               frameBorder="0"
               allowFullScreen
             ></iframe>
-          </Card.Section>
-          <Stack gap="xs">
-            <Title order={2} mt="md">
+          </div>
+          <div>
+            <h2>
               {clip.title}
-            </Title>
-            <Group gap="xs">
+            </h2>
+            <div>
               <ChannelLink channel={clip.channel} />
               <span>-</span>
               <TimeOfVideo clip={clip} />
-            </Group>
-          </Stack>
-        </Card>
-        <Stack gap="xs">
-          <Title order={3}>Other random videos</Title>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Other random videos</h3>
           <ClipGrid clips={shuffled} />
-        </Stack>
-      </Stack>
+        </div>
+      </div>
     </div>
   );
 };
