@@ -27,12 +27,12 @@ export const ClipThumb = ({ clip }: ButtonProps) => {
 
   return (
     <div className="flex flex-col gap-2 p-4 bg-slate-900 rounded-sm border border-slate-800 shadow-lg">
-      <a aria-hidden href={videoLink} className={classes.thumbLink} style={style}>
+      <Link aria-hidden href={videoLink} className={classes.thumbLink} style={style}>
         <span className={classes.duration}>{formatDuration(clip.duration)}</span>
-      </a>
-      <a href={videoLink} className={'text-lg font-bold tracking-wide ' + classes[`title-${clip.id}`]}>
+      </Link>
+      <Link href={videoLink} className={'text-lg font-bold tracking-wide ' + classes[`title-${clip.id}`]}>
         {clip.title}
-      </a>
+      </Link>
       <div className="flex items-center gap-2">
         <ChannelLink channel={clip.channel} />
         <TimeOfVideo clip={clip} />

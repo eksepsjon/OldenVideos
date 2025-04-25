@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { VideoChannel } from '@/models';
+import Link from 'next/link';
 
 export interface ChannelLinkProps {
   channel: VideoChannel;
@@ -13,9 +14,7 @@ export const ChannelLink = ({ channel }: ChannelLinkProps) => {
 
   return (
     <div>
-      <a href={channelLink}>
-        @{channel.name}
-      </a>
+      <Link href={channelLink}>@{channel.name}</Link>
     </div>
   );
 };
