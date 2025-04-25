@@ -17,7 +17,7 @@ export const Header = ({}: HeaderProps) => {
             <Logo text="Olden Videos" />
           </Link>
           <div className={classes.links}>
-            <Link href="https://github.com/eksepsjon/OldenVideos#contribute">Contribute</Link>
+            <Link href="https://github.com/eksepsjon/nostalgia-clip#contribute">Contribute</Link>
             <Link href="https://buymeacoffee.com/eksepsjon">Buy me a coffee</Link>
           </div>
         </div>

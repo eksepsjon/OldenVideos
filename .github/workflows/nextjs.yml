@@ -1,4 +1,4 @@
-name: Deploy OldenVideos site to Github Pages
+name: Deploy NostalgiaClip site to Github Pages
 
 on:
   # Runs on pushes targeting the default branch

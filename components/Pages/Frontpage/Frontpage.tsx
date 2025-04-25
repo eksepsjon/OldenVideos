@@ -31,7 +31,7 @@ export function Frontpage() {
               <span>Buy me a coffee</span>
             </a>
             <a
-              href="https://github.com/eksepsjon/OldenVideos#contribute"
+              href="https://github.com/eksepsjon/nostalgia-clip#contribute"
               className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white"
             >
               <IconBrandGithub className="flex-shrink-0" />
