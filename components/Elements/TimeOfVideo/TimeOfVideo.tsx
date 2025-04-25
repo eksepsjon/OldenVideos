@@ -14,7 +14,7 @@ export const TimeOfVideo = ({ clip }: TimeOfVideoProps) => {
   const formattedTime = moment(clip.publishedAt).format('MMMM Do YYYY');
 
   return (
-    <span title={formattedTime}>
+    <span title={formattedTime} className="text-sm text-gray-400">
       {relativeTime}
     </span>
   );

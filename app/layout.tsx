@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Olden Videos',
+  title: 'Nostalgia Clip',
   description: 'A curated collection of old videos.',
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body className="text-white bg-slate-900  bg-radial-[at_50%_25%] from-black to-slate-900 to-90%">{children}</body>
     </html>
   );
 }

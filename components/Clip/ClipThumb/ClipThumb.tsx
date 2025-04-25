@@ -26,15 +26,17 @@ export const ClipThumb = ({ clip }: ButtonProps) => {
   } as React.CSSProperties;
 
   return (
-    <div className={classes.clip}>
+    <div className="flex flex-col gap-2 p-4 bg-slate-900 rounded-sm border border-slate-800 shadow-lg">
       <a aria-hidden href={videoLink} className={classes.thumbLink} style={style}>
         <span className={classes.duration}>{formatDuration(clip.duration)}</span>
       </a>
-      <a href={videoLink} className={classes.clipLink + ' ' + classes[`title-${clip.id}`]}>
+      <a href={videoLink} className={'text-lg font-bold tracking-wide ' + classes[`title-${clip.id}`]}>
         {clip.title}
       </a>
-      <ChannelLink channel={clip.channel} />
-      <TimeOfVideo clip={clip} />
+      <div className="flex items-center gap-2">
+        <ChannelLink channel={clip.channel} />
+        <TimeOfVideo clip={clip} />
+      </div>
     </div>
   );
 };
