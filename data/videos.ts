@@ -366,6 +366,19 @@ export const allVideos: VideoItem[] = [
     }
   },
   {
+    "id": "oHg5SJYRHA0",
+    "title": "RickRoll'D",
+    "publishedAt": "2007-05-15T07:24:30.000Z",
+    "importedAt": "2025-04-27T21:01:53.181Z",
+    "duration": 213,
+    "thumbnail": "https://i.ytimg.com/vi/oHg5SJYRHA0/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCxnNQpMtVrZRZh3aOkmnK4w",
+      "name": "cotter548"
+    }
+  },
+  {
     "id": "y8Kyi0WNg40",
     "title": "Dramatic Look",
     "publishedAt": "2007-06-06T11:42:15.000Z",
@@ -431,6 +444,19 @@ export const allVideos: VideoItem[] = [
     }
   },
   {
+    "id": "hMnk7lh9M3o",
+    "title": "\"Thriller\" (original upload)",
+    "publishedAt": "2007-07-17T12:54:18.000Z",
+    "importedAt": "2025-04-27T21:01:53.210Z",
+    "duration": 266,
+    "thumbnail": "https://i.ytimg.com/vi/hMnk7lh9M3o/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCAchuWpawGYKkdFsygLfmxA",
+      "name": "byronfgarcia"
+    }
+  },
+  {
     "id": "lj3iNxZ8Dww",
     "title": "Miss Teen USA 2007 - South Carolina answers a question",
     "publishedAt": "2007-08-25T02:50:03.000Z",
@@ -480,6 +506,19 @@ export const allVideos: VideoItem[] = [
     "channel": {
       "id": "UCATF6667RvWVM_sMP0ks3Hg",
       "name": "lele fonda"
+    }
+  },
+  {
+    "id": "aMS0O3kknvk",
+    "title": "Grape lady falls!",
+    "publishedAt": "2007-12-20T01:14:53.000Z",
+    "importedAt": "2025-04-27T20:56:33.628Z",
+    "duration": 87,
+    "thumbnail": "https://i.ytimg.com/vi/aMS0O3kknvk/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCQp_yhutHNWGtyxstzl4Pgg",
+      "name": "yankeesfan22vt"
     }
   },
   {
@@ -623,6 +662,19 @@ export const allVideos: VideoItem[] = [
     "channel": {
       "id": "UCOmMUjaCM5koM_nSJ1KVg5Q",
       "name": "forrestfire101"
+    }
+  },
+  {
+    "id": "pNE_fX5HeUo",
+    "title": "Hitler rants about C&C Red Alert 3 DRM Install Limit",
+    "publishedAt": "2009-04-30T12:23:27.000Z",
+    "importedAt": "2025-04-27T20:59:48.207Z",
+    "duration": 239,
+    "thumbnail": "https://i.ytimg.com/vi/pNE_fX5HeUo/default.jpg",
+    "source": "youtube",
+    "channel": {
+      "id": "UCSEu_9uWST6nOtHbjYLvG5A",
+      "name": "Hitler Rants Parodies"
     }
   },
   {
