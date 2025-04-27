@@ -10,6 +10,14 @@
   box-shadow: 0 0 2rem 0.25rem rgba(0, 0, 128, 0.25);
   position: relative;
 }
+.itemLink {
+  background-image: var(--bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 72px;
+  height: 64px;
+}
 .duration {
   position: absolute;
   bottom: 0.5rem;

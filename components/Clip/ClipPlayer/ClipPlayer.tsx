@@ -8,8 +8,9 @@ import { shuffle } from '@/lib/util';
 import { allVideos } from '@/data/videos';
 import { ChannelLink } from '@/components/Elements/ChannelLink/ChannelLink';
 import { TimeOfVideo } from '@/components/Elements/TimeOfVideo/TimeOfVideo';
-import { IconDice3 } from '@tabler/icons-react';
+import { IconDice3, IconDice6 } from '@tabler/icons-react';
 import { ClipThumb } from '../ClipThumb/ClipThumb';
+import Link from 'next/link';
 
 export interface ButtonProps {
   clip: VideoItem;
@@ -17,6 +18,7 @@ export interface ButtonProps {
 
 /** Primary UI component for user interaction */
 export const ClipPlayer = ({ clip }: ButtonProps) => {
+  const nextStumble: VideoItem = allVideos[Math.floor(Math.random() * allVideos.length)];
   const videoId = clip.id;
   const [shuffled, setShuffled] = useState<VideoItem[]>([]);
 
@@ -38,9 +40,18 @@ export const ClipPlayer = ({ clip }: ButtonProps) => {
         </div>
         <div className="mx-auto w-full max-w-7xl gap-2 p-4 flex flex-col">
           <h2 className="text-3xl">{clip.title}</h2>
-          <div className="flex items-center gap-2">
-            <ChannelLink channel={clip.channel} />
-            <TimeOfVideo clip={clip} />
+          <div className="flex items-center justify-between gap-2 w-full">
+            <div className="flex items-center gap-2">
+              <ChannelLink channel={clip.channel} />
+              <TimeOfVideo clip={clip} />
+            </div>
+            <Link
+              href={`/${nextStumble.id}`}
+              className="flex items-center gap-2 p-2 px-4 bg-green-600 hover:bg-green-500 text-white justify-center"
+            >
+              <IconDice6 className="flex-shrink-0" />
+              Stumble!
+            </Link>
           </div>
         </div>
       </div>
